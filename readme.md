@@ -12,7 +12,7 @@ dockerfile
 * install docker
     `sudo yum install -y docker`
 * start docker service
-    sudo service docker start
+    `sudo service docker start`
 * add the ec2-user to the docker group:
     `sudo usermod -a -G docker ec2-user`
 * command for docker installation verfication:
